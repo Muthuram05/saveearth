@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    cursor: url("CURSOR.jpg"),text;
+    cursor: url("bg_ufo.png"),auto;
     overflow: hidden;
 }
 body:before
@@ -51,13 +51,16 @@ input + label
     position: absolute;
     left: -100px;
     z-index: 1;
-    width: 36px;
-    height: 34px;
+    width: 90px;
+    height: 90px;
     display: block;
     z-index: 5;
     transform: translate(-50%,-50%);
-    background: url(uf0_bg.jpg) no-repeat;
-    background-position: -138px 0;
+    background: url(bg_ufo.png) ;
+    background-size: 100%;
+    
+
+    
 }
 input:checked + label{
     opacity: 0;
@@ -69,25 +72,25 @@ input:checked + label{
 .duck:nth-last-of-type(1){
     
     animation: duckfly 10s linear 1s infinite;
-    cursor: url("CURSOR.jpg"),text;
+    cursor: url(bg_ufo.png),auto;
 
 }
 .duck:nth-last-of-type(2){
     
     animation: duckfly 20s linear 2s infinite;
-    cursor: url("CURSOR.jpg"),text;
+    cursor: url("CURSOR.jpg"),auto;
 
 }
 .duck:nth-last-of-type(3){
     
     animation: duckfly 30s linear 3s infinite;
-    cursor: url("CURSOR.jpg"),text;
+    cursor: url("city.jpg"),text;
 
 }
 .duck:nth-last-of-type(4){
     
     animation: duckfly 40s linear 4s infinite;
-    cursor: url("CURSOR.jpg"),text;
+    cursor: url("city.jpg"),auto;
 
 }
 .duck:nth-last-of-type(5){
